@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    list-style: none;
+}
+nav {
+    height: 80px;
+    display: flex;
+    padding-left: 15px;
+    padding-right:15px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px #0C356A solid;
+  }
+
+  aside {
+    gap: 20px;
+    display: flex;
+  }
+
+  aside a {
+    width: 160px;
+    color: #000;
+    padding: 5px 0;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+  }
+
+  aside a:hover {
+    color: #fff;
+    background-color: #0C356A;
+  }
+
+  #learning{
+    color: #fff;
+    background-color: #0C356A;
+  }
+  .actions {
+    gap: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+
+  }
+
+  header img{
+    height:70px;
+    width: 150px;
+    margin-left: 30px;
+
+}
+.image{
+    margin: 50px;
+}
+.text{
+    margin: 50px;
+}
+input:focus { 
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+.courses img{
+
+   
+    height:220px;
+    width: 250px;
+    margin: 10px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.content p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    
+}
+.content a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+}
+.container{ 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 950px;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+.box {
+    background-color: white;
+    width: 300px; /* Set the width to 250px */
+    height: 250px; /* Set the height to 320px */
+    
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+.box img {
+    width: 200px;
+    height: 180px;
+    box-shadow: 5px 5px rgb(227, 214, 214);
+}
+
+
+
+
+.box .logo {
+    height: 30px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.box p {
+    margin-top: 10px;
+    color: #333;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* ... (your existing CSS) ... */
+
+#search{
+    width: 1000px;
+    height: 60px;
+    margin:60px 220px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    font-size: 20px;
+    border-radius: 5px;
+    border: #F5F5F5;
+    color: #0C356A;
+    
+}
+#search::placeholder{
+    color: #dcd5d5;
+}
+
+.search-container {
+    
+    display: flex;
+    align-items: center;
+    margin-left: 30px; /* Adjust margin as needed */
+}

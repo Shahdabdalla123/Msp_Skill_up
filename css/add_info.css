@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+span
+{
+    
+    font-size: 100px;
+    
+    
+    
+} 
+span img{
+    height: 200px;
+    width: 200px;
+    margin-left: 43%;
+
+}
+p{
+    font-weight: bold;
+    padding-left:46%;
+}
+form{
+    width: 800px;
+    height: 100px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+input
+{
+    padding: 10px;
+    border: 2px #0C356A solid;
+    border-radius: 10px;
+    color: #0C356A;
+}
+.button{
+    padding:8px;
+    color: white;
+    font-weight: bold;
+    border: 2px #0C356A solid;
+    border-radius: 12px;
+    background-color: #0C356A;
+    text-decoration: none;
+    text-align: center;
+}
+
+.circle{
+    top: 50px;
+    position: relative;
+    height: 105px;
+    width: 105px;
+
+}
+.person{
+ 
+    
+    position: absolute;
+    top: 60px;
+    height: 65px;
+    width: 65px;
+    margin-left: -85px;
+    margin-top: 6px;
+}
+#pj{
+    margin-top: 10px;
+}
+.user
+{
+    margin-left:28px;
+    
+}
+.imginfo
+{
+    padding-bottom:1px;
+}
+
+/* Your existing CSS styles */
+
+/* Add these styles for the select menu */
+.lan-label {
+    margin-top: 10px;
+    color: #0C356A;
+    font-weight: bold;
+}
+
+.lan {
+    padding: 10px;
+    border: 2px #0C356A solid;
+    border-radius: 10px;
+    color: #0C356A;
+}
+
+/* Rest of your existing CSS styles */
+/* Your existing CSS styles */
+
+/* Add styles for the "Track" select menu */
+.track-label {
+    margin-top: 10px;
+    color: #0C356A;
+    font-weight: bold;
+    
+}
+
+.track {
+    padding: 10px;
+    border-radius: 10px;
+    color: #0C356A;
+    border: 2px #0C356A solid;
+
+
+}
+
+
+
+
+
+
+
+
+
