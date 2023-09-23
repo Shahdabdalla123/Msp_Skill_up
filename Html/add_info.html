@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/add_info.css">
+    <title>information</title>
+    <script src="../js/add_info.js"></script>
+</head>
+<body>
+    <div class="imginfo">
+        <span class="user" >
+            <img src="../images/Ellipse 3.png" alt="" class="circle">
+            <img src="../images/person.png" alt="" class="person">
+        </span>
+        <p id="pj"></p>
+    </div>
+    <form onsubmit="info(event)"method="POST">
+            
+            <input type="text" name="text" id="" class="uni" placeholder="University" required>
+            <br>
+            <input type="text" name="text" id="Faculty" class="fac" placeholder="Faculty"required>
+            <br>
+            <input type="number" name="" id="Age" class="age" placeholder="Age"required>
+            <br>
+            
+        <select name="Gender" id="Gender" class="lan"  >
+            <option value="">Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+            <br>
+            <!-- <input type="text" name="" id="" class="skill" placeholder="Skill"required> -->
+
+            
+        <select name="Track" id="Track" class="track" required >
+            
+            <option value="">Interesting</option>
+            <option value="Programming">Programming</option>
+            <option value="Medical">Medical</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="ai">Artificial Intelligence</option>
+            <option value="gd">Graphic design</option>
+            <option value="mar">Marketing </option>
+            <option value="inv">Investment</option>
+            <option value="bus">Businesses</option>
+            <option value="vid">Video montage</option>
+        </select>
+            
+            <br> <br> <br>
+            <button type="submit"class="button" >Continue</button>
+    </form>
+</body>
+</html>
+
+ 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="../css/sign.css">
+    <script src="https://kit.fontawesome.com/d0c0a2e0cb.js" crossorigin="anonymous"></script>
+    <script src="../js/signin.js"></script>
+   
+</head>
+<body>
+    <div class="p1-container">
+        <img id="img1"src="../images/logo.png" alt="logo">
+        <img id="img2"src="../images/home.png" alt="logo">
+        <div class="content" style="margin-top:47px;">
+            <h2>Login </h2> 
+            <form onsubmit="Signin(event)" method="POST">
+               <label for="username" style="font-weight: bold;font-size:15px">UserName</label>
+               <br>
+               <input  id="username" name="username"class="info"type="text" placeholder="Ex:Name">
+               <p class="para"id="error1"></p>
+               <br>
+              <label for="Password"style="font-weight: bold;font-size:15px">Password </label>
+               <br>
+               <input  id="Password" name="Password"type="password" class="info"  placeholder="Enter Your password">
+               <p class="para"id="error3"></p>
+               <a style="text-decoration:none;color:#2A73CC;"href="">forget password?</a>
+               <br>
+               <button type="submit"id="log">Login</button>
+               <h4>______________or________________</h4>
+               <br> 
+               <a  class="social" href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2x"></i> 
+                 Continue with Facebook
+               </a>
+               <br>  
+               <a  class="social" id="google" href="https://mail.google.com/mail/u/0/?hl=ar#inbox"> <i class="fab fa-google fa-2x"></i>  Sign in with Google</a> 
+               <br> 
+               <a  class="social" id="Apple" href=" "><i class="fa-brands fa-apple fa-2x" style="margin-right: 14px;"></i>  Continue with Apple</a> 
+               <br> 
+               <p class="pSign">Don't Have Account <a href="signup.html">Sign up</a></p>
+            </form>
+           
+        </div>
+    </div>
+   
+
+    
+</body>
+</html>
+ 

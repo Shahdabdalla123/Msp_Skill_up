@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+
+    <link rel="stylesheet" href="../css/sign.css">
+    <script src="https://kit.fontawesome.com/d0c0a2e0cb.js" crossorigin="anonymous"></script>
+    <script src="../js/signup.js"></script>
+</head>   
+<body>
+    <div class="p1-container">
+        <img id="img1"src="../images/logo.png" alt="logo">
+        <img id="img2"src="../images/home.png" alt="logo">
+        <div class="content"style="margin-top:37px;">
+            <h2>Signup  </h2> 
+            <form onsubmit="SignUp(event)" method="POST">
+                <label for="username" style="font-weight:bold;font-size:16px">UserName</label>
+                <br>
+                <input id="username" name="username" class="info"type="text" placeholder="Ex:Name">
+                <p class="para"id="error1"></p>
+                <br>
+                <label for="EMAIL" style="font-weight: bold;font-size:15px">EMAIL</label>
+                <br>
+                <input id="EMAIL" name="EMAIL"class="info"type="EMAIL"placeholder="name@gmail.com">
+                <p class="para"id="error2"></p>
+                <br>
+                <label for="Password"style="font-weight: bold;font-size:15px">Password </label>
+                <br>
+                <input  id="Password" name="Password"class="info" type="password" placeholder="Enter Your password">
+                <p class="para"id="error3"></p>
+                <button type="submit" id="log">Sign Up</button>
+                <h4>______________or________________</h4>
+                <br> 
+                <a  class="social" id="face" href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2x"></i>  Continue with Facebook</a>
+                <br>  
+                <a  class="social" id="google" href="https://mail.google.com/mail/u/0/?hl=ar#inbox"> <i class="fab fa-google fa-2x"></i>  Sign in with Google</a> 
+                <br> 
+                <a  class="social" id="Apple" href=" "><i class="fa-brands fa-apple fa-2x" style="margin-right: 14px;"></i>  Continue with Apple</a> 
+                <br> 
+                <p class="pSign">Have Account?<a href="signin.html">Log in</a></p>
+                </form>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
+
